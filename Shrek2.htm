@@ -1,0 +1,40 @@
+<h2> Shrek vietää naispuolisen shrekin kanssa hyvää aikaa tai jotain. </h2>
+<head> 
+
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "https://upload.wikimedia.org/wikipedia/en/3/39/Shrek.jpg") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://images-na.ssl-images-amazon.com/images/I/51M6aUm3csL._SY355_.jpg";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange").src = "https://upload.wikimedia.org/wikipedia/en/3/39/Shrek.jpg";
+        }
+    }
+</script>
+
+
+</head>
+<h2>Taulukko</h2>
+
+<table>
+  <tr>
+    <th> kesto</th>
+    <th>Ikäraja</th>
+    <th>Genre</th>
+  </tr>
+  
+  <tr>
+    <td>2h</td>
+    <td>7v</td>
+    <td>fantasia, seikkailu, scifi</td>
+  </tr>
+ 
+ 
+</table>
+<p>
+        <img alt="" src="https://upload.wikimedia.org/wikipedia/en/3/39/Shrek.jpg" 
+            style="height: 185px; width: 298px" id="imgClickAndChange" onclick="changeImage()"  />
+</p>

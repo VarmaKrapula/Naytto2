@@ -1,0 +1,39 @@
+<h2> Shrekistä tulee faija.</h2>
+<head> 
+
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "https://upload.wikimedia.org/wikipedia/en/3/39/Shrek.jpg") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://images-na.ssl-images-amazon.com/images/I/51M6aUm3csL._SY355_.jpg";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange").src = "https://upload.wikimedia.org/wikipedia/en/3/39/Shrek.jpg";
+        }
+    }
+</script>
+
+
+</head>
+<h2>Taulukko</h2>
+
+<table>
+  <tr>
+    <th> kesto</th>
+    <th>Ikäraja</th>
+    <th>Genre</th>
+
+  <tr>
+    <td>2,5h</td>
+    <td>12v</td>
+    <td>Ammunta, scifi, fantasia</td>
+  </tr>
+ 
+ 
+</table>
+<p>
+        <img alt="" src="https://upload.wikimedia.org/wikipedia/en/3/39/Shrek.jpg" 
+            style="height: 185px; width: 298px" id="imgClickAndChange" onclick="changeImage()"  />
+</p>
